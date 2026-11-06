@@ -1,0 +1,134 @@
+
+/* Configuração geral */
+
+body {
+    background-color: #eaf0f8;
+    font-family: Arial;
+    color: #222222;
+    margin: 0;
+}
+
+/* Parte de cima do site */
+
+header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7vPneJHyeDJOhV7N_zGBJRGH9pvxkv98d53OU9uXgy-WjrPEIbIM38zE&s=10");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1 {
+    color: #ffcb05;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #2455a4;
+}
+
+/* Títulos das secções */
+
+h2 {
+    background-color: #e63946;
+    color: white;
+    padding: 10px;
+    border-left: 6px solid #ffcb05;
+    margin-top: 40px;
+}
+
+/* Texto */
+
+h4 {
+    background-color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Conteúdo principal */
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* Índice */
+
+.index-table {
+    background-color: #2455a4;
+    margin: 30px auto;
+    padding: 10px;
+    border-spacing: 8px;
+}
+
+.index-table th {
+    background-color: #ffcb05;
+    color: #2455a4;
+    padding: 12px;
+}
+
+.index-table td {
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.index-table a {
+    color: #2455a4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.index-table a:hover {
+    color: #e63946;
+    text-decoration: underline;
+}
+
+/* Tabelas */
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    margin: 20px auto;
+    width: 100%;
+}
+
+th {
+    background-color: #2455a4;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+/* Listas */
+
+ul {
+    background-color: white;
+    padding: 25px 40px;
+}
+
+li {
+    padding: 5px;
+
+}
+
+/* Imagens */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Vídeo */
+
+video {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
